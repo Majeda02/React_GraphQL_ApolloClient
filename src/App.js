@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import CompteList from "./components/CompteList";
+import CreateCompte from "./components/CreateCompte";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen bg-gray-100 p-6">
+      <h1 className="text-3xl font-bold text-center mb-6">
+        Gestion des Comptes
+      </h1>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <CreateCompte />
+        <CompteList />
+      </div>
     </div>
   );
 }
