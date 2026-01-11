@@ -35,4 +35,8 @@ Avant de commencer cette activité, assurez-vous de disposer des compétences et
 
 https://github.com/user-attachments/assets/6b9ec85e-7fb7-4353-8d8c-ea4314373367
 
-
+## Auteur
+* Nom : BEN-LAGHFIRI Majeda
+* Cours: Architecture Microservices : Conception, Déploiement et Orchestration
+* Date : Janvier 2026
+* Encadré par : Pr.Mohamed LACHGAR
